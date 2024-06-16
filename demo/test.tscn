@@ -1,18 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://djpmhrmelgvew"]
+[gd_scene load_steps=2 format=3 uid="uid://djpmhrmelgvew"]
 
-[ext_resource type="Texture2D" uid="uid://ppkwch3mkxd8" path="res://qt.png" id="1_yb637"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_6hjs5"]
-size = Vector2(59, 81)
+[ext_resource type="PackedScene" uid="uid://mdwcdhsi4jbi" path="res://player_movement.tscn" id="1_rw54t"]
 
 [node name="Test" type="Node2D"]
 
-[node name="PlayerMovement" type="PlayerMovement" parent="."]
-
-[node name="Sprite2D" type="Sprite2D" parent="PlayerMovement"]
-scale = Vector2(0.02, 0.02)
-texture = ExtResource("1_yb637")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerMovement"]
-position = Vector2(-0.0567627, 1.09906)
-shape = SubResource("RectangleShape2D_6hjs5")
+[node name="PlayerMovement" parent="." instance=ExtResource("1_rw54t")]
