@@ -3,7 +3,7 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="GDExample" type="GDExample" parent="."]
-position = Vector2(0.146315, 12.6118)
+position = Vector2(16.985, 1.63524)
 
 [node name="Area2D" type="Area2D" parent="."]
 
