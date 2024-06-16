@@ -3,4 +3,25 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="GDExample" type="GDExample" parent="."]
-position = Vector2(13.9232, 19.5464)
+position = Vector2(0.146315, 12.6118)
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
+polygon = PackedVector2Array(-186, 1, -186, 1195, 1, 1198, -14, -9)
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="Area2D"]
+position = Vector2(2574, 1193)
+rotation = 1.5708
+scale = Vector2(1, 2.16404)
+polygon = PackedVector2Array(-186, 1, -186, 1195, 1, 1198, -14, -9)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="Area2D"]
+position = Vector2(2592, -20)
+polygon = PackedVector2Array(-186, 1, -186, 1195, 1, 1198, -14, -9)
+
+[node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="Area2D"]
+position = Vector2(2571.08, 21)
+rotation = 1.5708
+scale = Vector2(1, 2.27242)
+polygon = PackedVector2Array(-186, 1, -186, 1195, 1, 1198, -5.20923, 698.382, -14, -9)
