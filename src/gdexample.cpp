@@ -7,6 +7,7 @@ void GDExample::_bind_methods() {
 }
 
 GDExample::GDExample() {
+	
 	// Initialize any variables here.
 	time_passed = 0.0;
 }
