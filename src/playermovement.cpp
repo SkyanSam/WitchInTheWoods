@@ -9,6 +9,7 @@ void PlayerMovement::_bind_methods() {
 
 PlayerMovement::PlayerMovement() {
     // Initialize any variables here.
+    speed = 500.0;
 	velocity = Vector2::Vector2(0,0);
 }
 
@@ -19,6 +20,7 @@ PlayerMovement::~PlayerMovement() {
 void PlayerMovement::_process(double delta) {
     godot::Input* input_handler = godot::Input::get_singleton();
     
+    velocity = Vector2::Vector2(0,0);
 	if(input_handler->is_action_pressed("w")){
         velocity.y = -.5 * speed;
     }

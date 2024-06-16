@@ -1,3 +1,10 @@
-[gd_scene format=3 uid="uid://djpmhrmelgvew"]
+[gd_scene load_steps=2 format=3 uid="uid://djpmhrmelgvew"]
+
+[ext_resource type="Texture2D" uid="uid://dbx66sovxd1" path="res://icon.svg" id="1_8bfaj"]
 
 [node name="Test" type="Node2D"]
+
+[node name="PlayerMovement" type="PlayerMovement" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="PlayerMovement"]
+texture = ExtResource("1_8bfaj")
