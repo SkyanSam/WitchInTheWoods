@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://7xnaycwcxoct"]
+
+[ext_resource type="Texture2D" uid="uid://ppkwch3mkxd8" path="res://qt.png" id="1_5dkal"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bqhic"]
+size = Vector2(59, 76)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="Qt" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(41, 56)
+scale = Vector2(0.02, 0.02)
+texture = ExtResource("1_5dkal")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(42.5, 55)
+shape = SubResource("RectangleShape2D_bqhic")
