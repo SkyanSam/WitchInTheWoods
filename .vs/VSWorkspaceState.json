@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\demo",
+    "\\bin\\windows",
     "\\demo\\bin",
+    "\\demo\\bin\\windows",
     "\\src"
   ],
+  "SelectedNode": "\\src\\gdexample.cpp",
   "PreviewInSolutionExplorer": false
 }
