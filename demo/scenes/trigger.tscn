@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bnpiyx4xn7oao"]
+
+[ext_resource type="Script" path="res://trigger.gd" id="1_hodes"]
+
+[node name="trigger" type="Area2D"]
+collision_layer = 0
+collision_mask = 8
+script = ExtResource("1_hodes")
