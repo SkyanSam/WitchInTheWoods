@@ -33,7 +33,7 @@ position = Vector2(25, 32)
 scale = Vector2(1.90603, 0.900746)
 
 [node name="GDExample" type="GDExample" parent="."]
-position = Vector2(18.9815, 16.6995)
+position = Vector2(6.02616, 5.39197)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
@@ -75,3 +75,5 @@ scale = Vector2(0.837, 0.842)
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="main_char"]
 scale = Vector2(2.27722, 1.06977)
 remote_path = NodePath("../../Camera2D")
+
+[connection signal="body_entered" from="Area2D2" to="Area2D2" method="_on_body_entered"]
